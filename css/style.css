@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Ropa Sans', sans-serif;
+    color: #777;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.new-button {
+    background: #51D275;
+}
+
+.sale-button {
+    background: #DC9730;
+}
+
+header.principal{
+    /* border-bottom: 1px solid #777; */
+    box-shadow: 0 8px 10px -3px rgba(119, 119, 119, .8);
+    /* box-shadow:  0px 10px rgba(119, 119, 119, 0.1); offset-x | offset-y | color */
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1, h2 {
+    display: inline-block;
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 10px;
+}
+
+section.banner {
+    width: 100%;
+    margin-top: 20px;
+
+    height: calc(100vh - 186px);
+    background-image: url(../img/slider-image.png);
+    background-size: cover;
+    background-position: center;
+}
+
+section.anuncio {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-top: 40px;
+}
+
+section.anuncio article {
+    width: calc(50% - 90px);
+    background: #eee;
+}
+
+section.anuncio article header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section.anuncio article h2 {
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #888888;
+}
+
+section.anuncio article button {
+    border: none;
+
+    width: 56px;
+    height: 21px;
+    border-radius: 10.5px;
+
+    font-size: 20px;
+    line-height: 21px;
+    color: #fff;
+
+    cursor: pointer;
+}
+
+section.anuncio img {
+    width: 100%;
+}
+
+footer {
+    background: #333;
+}
