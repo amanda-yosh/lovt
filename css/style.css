@@ -259,15 +259,12 @@ footer .sociais img {
         flex-wrap: wrap;
         padding: 0 50px;
         justify-content: center;
+        gap: 15px;
     }
 
     footer .container .mapa iframe {
         max-width: 100%;
     }
-
-    /* section.anuncio article {
-        margin: 10px;
-    } */
 
     .container {
         padding: 0 15px;
